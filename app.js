@@ -19,12 +19,45 @@ const name = 'Hesen'
 console.log(name);
 
 
+//rəqəmsal əməliyyatlar
+const first = 2013;
+const second = 2004;
+console.log(first + second);
+// 4017
+console.log(first - second);
+// 9
+console.log(first * second);
+// 4034052
+console.log(first / second);
+// 1.0044910179640718
 
+// let num = 5;
+// num = num + 10;
+// console.log(num);
+// 15
 
+let num = 5;
+num += 10; 
+console.log(num);
+// 15
 
+const numKesr = 2013;
+console.log(numKesr % 3);
+// 0
+// ++ (inkrement) və -- (dekrement) 
 
+const message = 'Did somebody say "Yoga"?';
+console.log(message);
 
+const messagE = '\'He\'s coming to visit you';
+console.log(messagE);
 
+const nameArr = 'Trevor';
+console.log(nameArr.length);
+console.log(nameArr[5]);
+console.log(nameArr.indexOf('T'));
+console.log(nameArr.indexOf('t'));
+console.log(nameArr.indexOf('vor'));
 
 // function cap(){
 //     document.write("Salam Dunya");
