@@ -59,6 +59,35 @@ console.log(nameArr.indexOf('T'));
 console.log(nameArr.indexOf('t'));
 console.log(nameArr.indexOf('vor'));
 
+
+//Tip çevrimələr
+//ekrana bildiriş və ya mesaj çıxarmaq üçün alert() funksiyası istifasdə edilir
+// alert('Welcome Site !');
+
+
+//Ekrana confirm() istifadəçidən suala bəli və ya yox cavabını seçməyi tələb edir. 
+//İstifadəçi cavabının nəticəsi dəyişənə boolean tip true/false dəyəri kimi mənimsətilir.
+// let tesdiq = confirm('Bu əmri təsdiq edirsinizmi ?')
+
+// if(tesdiq == true){
+//     document.write('True')
+// }else{
+//     document.write('Flase')
+// }
+
+
+//prompt daxil olan mətni string tipində saxlayır
+// let inclusion = prompt('Ekrana yazdıracağın mətni daxil et !')
+// document.write(inclusion)
+const value = Number('str123');
+console.log(value);
+
+
+
+
+
+
+
 // function cap(){
 //     document.write("Salam Dunya");
 //     document.write(777+554);
