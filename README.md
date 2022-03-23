@@ -2,10 +2,36 @@
 
 ### Dərs-1 
 
-> Konsol əmrləri
+```
+    -  Konsol əmrləri.
+    -  Dəyişən.
+    -  Dəyişənin dəyərinin dəyişməsi.
+    -  Sabitlərin elan olunması.
+```
 
-> Dəyişən
+### Dərs-2
 
-> Dəyişənin dəyərinin dəyişməsi
+```
+    -  Dəyişən tipləri
+    -  Rəqəmsal məlumatlarla əməliyyatlar.
+    -  İnkrementasiya və dekrementasiya.
+    -  Qüvvətə qaldırılma.
+    -  Mətn dəyişənlər.
+    -  Konkatenasiya.
+    -  Şablon mətnlər.
+    -  Length özəlliyi.
+    -  Simvola müraciət.
+    -  indexOf() metodu.
+    -  Məntiqi verilənlər.
+```
 
-> Sabitlərin elan olunması
+### Dərs-3 
+
+```
+    -  Brauzer xəbərdarlıqları.
+    -  Rəqəm tipinə çevrilmə.
+    -  Məlumatın tip çevrilməsi.
+    -  Avtomatik tip çevrilməsi.
+    -  Mətn tipinə çevrilmə.
+    -  Boolean tipinə çevrilmə.
+```
