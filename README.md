@@ -44,3 +44,11 @@
     -  Şərt operatoru.
     -  Dəyişənin görünmə sahəsi.
 ```
+
+### Dərs-5
+
+```
+    -  switch operatoru.
+    -  switch konstruksiyası.
+    -  ternary(üçlü) operator.
+```
