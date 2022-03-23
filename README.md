@@ -35,3 +35,12 @@
     -  Mətn tipinə çevrilmə.
     -  Boolean tipinə çevrilmə.
 ```
+
+### Dərs-4
+
+```
+    -  Müqayisə operatorları.
+    -  Məntiq operatorları.
+    -  Şərt operatoru.
+    -  Dəyişənin görünmə sahəsi.
+```
