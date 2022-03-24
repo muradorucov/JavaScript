@@ -52,3 +52,12 @@
     -  switch konstruksiyası.
     -  ternary(üçlü) operator.
 ```
+
+### Dərs-6
+
+```
+    -  Funksiyanın təyin olunması.
+    -  Funksiyanın çağırılması.
+    -  Funksiyanın parametri.
+    -  Parametrli funksiyanın çağırılması
+```
