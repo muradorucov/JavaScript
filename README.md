@@ -61,3 +61,13 @@
     -  Funksiyanın parametri.
     -  Parametrli funksiyanın çağırılması
 ```
+
+### Dərs-7
+
+```
+    -  Funksiyanın  növləri.
+    -  Return funksiya.
+    -  Funksiyanin yarıçıq dayandırılması.
+    -  Funksiyanın dəyişənə yazılması.
+    -  Oxlu funksiya
+```
