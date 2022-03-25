@@ -71,3 +71,12 @@
     -  Funksiyanın dəyişənə yazılması.
     -  Oxlu funksiya
 ```
+
+### Dərs-8
+
+```
+    -  Şərtli dövr.
+    -  Dövrün gövdəsi.
+    -  İterasiya.
+    -  Nümunələr.
+```
