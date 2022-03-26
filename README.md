@@ -79,4 +79,15 @@
     -  Dövrün gövdəsi.
     -  İterasiya.
     -  Nümunələr.
+    -  While loop.
+```
+
+### Dərs-9
+
+```
+    -  Parametrli dövr.
+    -  For loop.
+    -  Dövrün idarə olunması.
+    -  Dövrün dayandırılması (break).
+    -  Növbəti iterasiya (continue).
 ```
