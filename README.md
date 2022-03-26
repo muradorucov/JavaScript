@@ -91,3 +91,14 @@
     -  Dövrün dayandırılması (break).
     -  Növbəti iterasiya (continue).
 ```
+
+### Dərs-9
+
+```
+    -  Massivlər.
+    -  Massiv elementi.
+    -  Massivin təyin olunması.
+    -  Massivin elementinə müraciət.
+    -  Massiv uzunluğu(length).
+    -  Massiv elementlərinin iterasiyası.
+```
