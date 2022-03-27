@@ -92,7 +92,7 @@
     -  Növbəti iterasiya (continue).
 ```
 
-### Dərs-9
+### Dərs-10
 
 ```
     -  Massivlər.
