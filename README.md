@@ -102,3 +102,17 @@
     -  Massiv uzunluğu(length).
     -  Massiv elementlərinin iterasiyası.
 ```
+
+### Dərs-11
+
+```
+    -  Push metodu .
+    -  Pop metodu.
+    -  Shift metodu.
+    -  Unshift metodu.
+    -  Massivi mətnə çevrilməsi(join metodu).
+    -  Mətnin massivə çevrilməsi(split metodu).
+    -  Rest-operatoru
+    -  Spread-operatoru
+    -  Massivin surətinin çıxarılması
+```
