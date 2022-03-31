@@ -108,35 +108,35 @@ console.log(otherParts);
 
 //Spread-operatoru
 //Spread operatoru  «. . .» massivi ayrı-ayrı elementlər ardıcıllığına çevirir. Massivin hər bir elementini ayrıca dəyişən kimi ötürmək lazım olanda bu çox faydalı olur.
-const characters = ['Peter', 'Gwen', 'Norman'];
+const charact = ['Peter', 'Gwen', 'Norman'];
 
-console.log(characters[0], characters[1], characters[2]);
+console.log(charact[0], charact[1], charact[2]);
 // Peter Gwen Norman
 
 ///////////////////////////////////////////////////////////////////////////////////
-const characters = ['Peter', 'Gwen', 'Norman'];
+const characs = ['Peter', 'Gwen', 'Norman'];
 
-console.log(...characters);
+console.log(...characs);
 
 // Peter Gwen Norman
 
 
 //Massivin surətinin çıxarılması
 //Massivin surətini çıxarmaq üçün yeni massiv yaratmaq və spread-operatorundan istifadə edərək orijinal massivin bütün elementlərini ona ötürmək lazımdır.
-const characters = ['Peter', 'Gwen', 'Norman'];
+const chara = ['Peter', 'Gwen', 'Norman'];
 
-const persons = [...characters];
+const person = [...chara];
 persons.push('Stan');
 
-console.log(characters);
+console.log(chara);
 // ['Peter', 'Gwen', 'Norman'];
-console.log(persons);
+console.log(person);
 // ['Peter', 'Gwen', 'Norman', 'Stan'];
 
 //spread-operatorundan istifadə edərək massiv yaradarkən siz yeni elementlər də əlavə edə bilərsiniz.
-const characters = ['Peter', 'Gwen', 'Norman'];
+const cters = ['Peter', 'Gwen', 'Norman'];
 
-const persons = [...characters, 'Eddie'];
+const persons = [...cters, 'Eddie'];
 persons.push('Stan');
 
 console.log(persons);
