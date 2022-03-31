@@ -124,4 +124,7 @@
     -  forEach metodu.
     -  Geri çağırış funksiyası (callback).
     -  Anonim funksiya.
+    -  map metodu.
+    -  find metodu.
+    -  filter metodu.
 ```
