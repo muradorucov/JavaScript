@@ -116,3 +116,12 @@
     -  Spread-operatoru
     -  Massivin surətinin çıxarılması
 ```
+
+### Dərs-12
+
+```
+    -  Massivin iterasiyasi.
+    -  forEach metodu.
+    -  Geri çağırış funksiyası (callback).
+    -  Anonim funksiya.
+```
