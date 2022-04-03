@@ -127,4 +127,26 @@
     -  map metodu.
     -  find metodu.
     -  filter metodu.
+    -  sort metodu
+```
+
+### Dərs-13
+
+```
+    -  Obyektin təyin olunması.
+    -  Obyektin özəlliyi.
+    -  Özəllik (propertie) adı.
+    -  Özəlliyin çağırılması.
+    -  Özəlliyin əlavə olunması.
+    -  Özəlliyin dəyişdirilməsi.
+    -  Özəlliyin silinməsi (delete).
+    -  Obyektin surətinin çıxarılması.
+```
+
+### Dərs-14
+
+```
+    -  Obyekt metodu.
+    -  Metod çağırılması.
+    -  Obyektə müraciət.
 ```
