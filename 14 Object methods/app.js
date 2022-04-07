@@ -1,7 +1,7 @@
 //Obyektlər təkcə xüsusiyyətlərə deyil, həm də onunla yerinə yetirilə bilən əməliyyatlara (rəng dəyişdirmək, hərəkət etmək və s.) malikdir.
-itemchair = {
-    manufacturer: 'IKEA',
+const chair = {
     color: 'Blue',
+    manufacturer: 'IKEA',
     levelBackrest: '50',
     lowerBackrest() {
         chair.levelBackrest--;
@@ -11,16 +11,17 @@ itemchair = {
     }
 }
 
+
 //Deyək ki, bel mövqeyini dəyişdirmək üçün fərqli mexanizmə malik iki stulumuz var. 
 //Hər bir stul üçün təlimatları bütün digər xüsusiyyətlər ilə birlikdə saxlamaq rahatdır.
 
-itemchair1 = {
+const chair1 = {
     color: 'Blue',
     lowerBack() {
         chair.LevelBack--;
     }
 }
-itemchair2 = {
+const chair2 = {
     color: 'Red',
     setPositionBackrest(level) {
         chair.levelBackrest = level;
