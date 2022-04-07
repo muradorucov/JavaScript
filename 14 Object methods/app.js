@@ -5,12 +5,13 @@ const chair = {
     levelBackrest: '50',
     lowerBackrest() {
         chair.levelBackrest--;
+        console.log(this.levelBackrest);
     },
     raiseBack() {
         chair.levelBack++;
     }
 }
-
+chair.lowerBackrest();
 
 //Deyək ki, bel mövqeyini dəyişdirmək üçün fərqli mexanizmə malik iki stulumuz var. 
 //Hər bir stul üçün təlimatları bütün digər xüsusiyyətlər ilə birlikdə saxlamaq rahatdır.
