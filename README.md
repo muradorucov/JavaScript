@@ -150,3 +150,14 @@
     -  Metod çağırılması.
     -  Obyektə müraciət.
 ```
+
+### Dərs-15
+
+```
+    -  Klas.
+    -  Klasın strukturu.
+    -  Klasın konstruktoru.
+    -  Klasın nümunəsi.
+    -  Bir nümunə (instance) yaratmaq.
+    -  Klasın metodları.
+```
