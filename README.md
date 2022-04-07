@@ -161,3 +161,14 @@
     -  Bir nümunə (instance) yaratmaq.
     -  Klasın metodları.
 ```
+
+### Dərs-16
+
+```
+    -  Sinifin irs alması.
+    -  Törəmə siniflər.
+    -  Obyekt-yönümlü proqramlaşdırma(OOP).
+    -  İrsilik.
+    -  Kapsullama.
+    -  Polimorfizm.
+```
