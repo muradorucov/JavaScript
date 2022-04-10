@@ -172,3 +172,45 @@
     -  Kapsullama.
     -  Polimorfizm.
 ```
+
+### Dərs-17
+
+```
+    -  DOM (Document Object Model).
+    -  Obyekt modeli.
+    -  Elementin tapılması.
+    -  Selektor.
+    -  Elementə keçid linki əldə etmək.
+    -  Elementin yaradılması və silinməsi.
+    -  Elementin əlavə edilməsi.
+    -  Elementin silinməsi.
+    -  innerHTML .
+    -  CSS xüsusiyyətlərin dəyişdirilməsi.
+    -  Mətnin alınması(innerText və textContent).
+```
+
+### Dərs-18
+
+```
+    -  Elementlər toplusu.
+    -  Kolleksiyanın əldə olunması(querySelectorAll ).
+    -  Kolleksiya ilə əməliyyatlar.
+    -  Naviqasiya.
+    -  DOM-ağacı üzrə naviqasiya.
+    -  Atributun dəyişdirilməsi.
+    -  classList .
+```
+
+### Dərs-19
+
+```
+    -  Hadisə emal edicilər (Event handling).
+    -  Semantika elementləri.
+    -  Emal edicinin təyin edilməsi.
+    -  Metoddan istifadə etməklə təyin etmə(addEventListener ).
+    -  Hadisə emal edicinin aradan qaldırılması(removeEventListener ).
+    -  Anonim emal edici.
+    -  Mouse hadisələri.
+    -  Default hadisələr(preventDefault ).
+    -  Keyboard hadisələri(keyup,keyCode).
+```
