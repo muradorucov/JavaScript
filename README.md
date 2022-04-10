@@ -212,5 +212,5 @@
     -  Anonim emal edici.
     -  Mouse hadisələri.
     -  Default hadisələr(preventDefault ).
-    -  Keyboard hadisələri(keyup,keyCode).
+    -  Keyboard hadisələri(keyup,KeyCode).
 ```
