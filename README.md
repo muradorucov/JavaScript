@@ -180,10 +180,11 @@
     -  Obyekt modeli.
     -  Elementin tapılması.
     -  Selektor.
-    -  Elementə keçid linki əldə etmək.
-    -  Elementin yaradılması və silinməsi.
-    -  Elementin əlavə edilməsi.
+    -  Elementə keçid linki əldə etmək(documnet.querySelector).
+    -  Elementin yaradılması və silinməsi(documnet.createElement və remove).
+    -  Elementin əlavə edilməsi.(append,insertBefore )
     -  Elementin silinməsi.
+    -  HTML-içəriyin əldə olunması
     -  innerHTML .
     -  CSS xüsusiyyətlərin dəyişdirilməsi.
     -  Mətnin alınması(innerText və textContent).
