@@ -215,3 +215,16 @@
     -  Default hadisələr(preventDefault ).
     -  Keyboard hadisələri(keyup,KeyCode).
 ```
+
+### Dərs-20
+
+```
+    -  Daxiletmə sahəsi(input).
+    -  Daxiletmə sahəsinin məlumat tipi.
+    -  placeholder.
+    -  Təsvir (label).
+    -  Dəyər seçimi (select).
+    -  Yoxlama qutusu (checkbox).
+    -  Mətn qutusu (textarea).
+    -  Dəyər əldə edilməsi(value,keyup,focus,blur,change).
+```

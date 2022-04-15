@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Daxiletmə sahəsi(input) -->
+    <input>
+    <br><br>
+    <!-- Daxiletmə sahəsinin məlumat tipi -->
+    <!-- input elementinə type atributu təyin oluna bilər ki, brauzer giriş məlumatının tipini düzgün müəyyən edə bilsin. -->
+    <input type="text">
+    <br><br>
+    <!-- sadə mətn (default dəyəri) -->
+
+    <input type="number">
+    <br><br>
+    <!-- rəqəm (yalnız rəqəmlər daxil etməyə imkan verir) -->
+
+    <input type="email">
+    <br><br>
+    <!-- Email ünvanı (brauzer avtomatik əvəz olunma edə bilər) -->
+
+    <input type="password">
+    <br><br>
+    <!-- şifrə (simvollar "ulduz" ilə əvəz olunur) -->
+
+    <!-- Daxiletmə sahəsi üçün əlavə məlumat
+    <!-- input elementi üçün siz istifadəçiyə hansı dəyəri daxil edəcəyini anlamağa kömək edən mətn parçası placeholder — təyin edə bilərsiniz.  -->
+    <input type="text" placeholder="Ad daxil edin">
+    <br><br>
+
+
+    <!-- Mətn parçası sizə hansı məlumatı daxil edəcəyinizi anlatır. label üzərinə kliklədiyiniz zaman giriş sahəsi aktivləşir.
+    placeholder - dən fərqli olaraq, təsviri hətta giriş sahəsi doldurulsa belə görünəcək. -->
+    <label>
+        Ad
+        <!-- <input class="name" type="text" placeholder="Adınızı daxil edin"> -->
+    </label>
+    <br><br>
+
+    <!-- Dəyər seçimi (select) -->
+    <!-- Element bir neçə təklif olunan dəyərdən birini seçməyə imkan verir. -->
+
+    <label>
+        Cinsi seçin
+        <select>
+          <option value="male">Kişi</option>
+          <option value="female">Qadın</option>
+        </select>
+    </label>
+    <br><br>
+
+    <!-- Yoxlama qutusu (checkbox) -->
+    <!-- Element bir dəyərin seçildiyini və ya onun seçilmədiyini göstərməyə imkan verir. -->
+    <label>
+        Abunə olun
+        <input type="checkbox">
+    </label>
+    <br><br>
+
+    <!-- Mətn qutusu (textarea) -->
+    <!-- Çoxlu mətn daxil etmək üçün textarea elementindən istifadə olunur. 
+    Bunun üçün sətirlərin sayını və hər sətirdəki simvolların sayını, həmçinin default mətni təyin edə bilərsiniz.  -->
+    <textarea rows="5" cols="30">Bu haqda nə düşündüyünüzü yazın...
+    </textarea>
+    <br><br>
+
+
+    <!-- Dəyər əldə edilməsi -->
+    <!-- Giriş sahəsinin dəyərini əldə etmək üçün value xassəsinin içəriyini oxumalısınız. -->
+    <!-- <input class="name" type="text" placeholder="Ad daxil edin"> -->
+    <button class="action">Show name</button>
+    <br><br>
+
+    <!-- <script>
+        const nameInput = document.querySelector('.name');
+        const actionButton = document.querySelector('.action');
+
+        actionButton.addEventListener('click', () => {
+            alert(nameInput.value);
+        });
+    </script> -->
+
+    <!-- Klaviaturadan məlumat daxil edilərkən, keyup hadisəsi baş verir. 
+    Hər simvol daxil edildikdən sonra validasiya yerinə yetirmək üçün emal edicidən istifadə oluna bilər. -->
+    <!-- <input class="name" type="text" placeholder="Ad daxil edin"> -->
+    <!-- <p class="tip">Minimum -- 3 simvol</p> -->
+    <br><br>
+    <!-- <script>
+        const nameInput = document.querySelector('.name');
+        const tip = document.querySelector('.tip');
+
+        nameInput.addEventListener('keyup', (event) => {
+            if (event.target.value.length < 3) {
+                tip.style.display = 'block';
+            } else {
+                tip.style.display = 'none';
+            }
+        });
+    </script> -->
+
+    <!-- Giriş sahəsinə kliklədiyiniz zaman focus hadisəsi baş verir.
+    Bu hadisə ön göstərişlər göstərmək üçün faydalıdır. -->
+
+    <!-- <input class="name" type="text" placeholder="Ad daxil edin">
+    <p class="tip" style="display: none;">Profildə göstəriləcək ad</p>
+
+    <script>
+        const nameInput = document.querySelector('.name');
+        const tip = document.querySelector('.tip');
+
+        nameInput.addEventListener('focus', () => {
+            if (nameInput.value.length < 3) {
+                tip.style.display = 'block';
+            }
+        });
+    </script> -->
+
+    <!-- Elementdən kənara kliklədiyiniz zaman blur hadisəsi baş verir. 
+    Bu hadisə sahənin validasiyası üçün faydalıdır. -->
+
+    <!-- <input class="name" type="text" placeholder="Ad daxil edin">
+    <p class="tip">Minimum -- 3 simvol</p>
+
+    <script>
+        const nameInput = document.querySelector('.name');
+        const tip = document.querySelector('.tip');
+
+        nameInput.addEventListener('blur', () => {
+            if (nameInput.value.length >= 3) {
+                tip.style.display = 'none';
+            } else {
+                tip.style.display = 'block';
+            }
+        });
+    </script> -->
+
+    <!-- select və checkbox elementlərinin dəyərlərinə edilən dəyişiklikləri idarə etmək üçün change hadisəsi istifadə olunur. -->
+    <label> Cinsi seçiniz
+        <select class="gender">
+          <option value="male">Kişi</option>
+          <option value="female">Qadın</option>
+        </select>
+      </label>
+    <label> Abunə olun
+        <input class="subscribe" type="checkbox">
+      </label>
+
+    <script>
+        const genderSelect = document.querySelector('.gender');
+        const subscribeCheckbox = document.querySelector('.subscribe');
+        genderSelect.addEventListener('change', (event) => {
+            alert(`Cins seçildi: ${event.target.value}`);
+        });
+        subscribeCheckbox.addEventListener('change', (event) => {
+            if (event.target.checked) {
+                alert('Siz abunə oldunuz');
+            } else {
+                alert('Siz abunə siyahısından çıxarılmısınız');
+            }
+        });
+    </script>
+</body>
+
+</html>
