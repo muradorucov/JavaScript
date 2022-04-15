@@ -228,3 +228,13 @@
     -  Mətn qutusu (textarea).
     -  Dəyər əldə edilməsi(value,keyup,focus,blur,change).
 ```
+
+### Dərs-21
+
+```
+    -  Html Form.
+    -  Formun göndərilməsi.
+    -  Məcburi sahələr(required).
+    -  preventDefault().
+    -  Form məlumatları(FormData).
+```

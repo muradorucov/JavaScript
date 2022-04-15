@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Çoxsaylı sahələri birləşdirmək üçün form elementindən istifadə edilir. -->
+    <form>
+        <label>  
+          Ad
+          <input class="first-name" type="text" placeholder="Ad daxil edin">
+        </label>
+
+        <label>
+          Soyad
+          <input class="last-name" type="text" placeholder="Soyad daxil edin">
+        </label>
+
+        <label>
+          Cinsi
+          <select class="gender">
+            <option value="male">Kişi</option>
+            <option value="female">Qadın</option>
+          </select>
+        </label>
+    </form>
+
+
+    <!-- Məlumatların formda düzgün saxlanması üçün hər bir giriş sahəsinə name atributu təyin edilməlidir. -->
+    <form class="user-form">
+        <label>  
+          Ad
+          <input class="first-name" name="firstname" type="text">
+        </label>
+
+        <label>
+          Soyad
+          <input class="last-name" name="lastname" type="text">
+        </label>
+
+        <label>
+          Cinsi
+          <select class="gender" name="gender">
+            <option value="male">Kişi</option>
+            <option value="female">Qadın</option>
+          </select>
+        </label>
+    </form>
+
+    <!-- Formun göndərilməsi -->
+    <!-- Form sahələrinin məlumatlarını əldə etmək üçün onu göndərməlisiz. Bunun üçün form içərisinə düymə yerləşdirmək lazımdır.
+         Düymə kliklədikdə, submit hadisəsi baş verir. -->
+
+    <form class="user-form">
+        <label>  
+              Ad
+              <input class="first-name" name="firstname" type="text">
+            </label>
+
+        <label>
+              Soyad
+              <input class="last-name" name="lastname" type="text">
+            </label>
+
+        <label>
+              Cinsi
+              <select class="gender" name="gender">
+                <option value="male">Kişi</option>
+                <option value="female">Qadın</option>
+              </select>
+            </label>
+        <button>Göndər</button>
+    </form>
+
+    <!-- button elementinin type atributu var. Default olaraq o submit - ə bərabərdir . 
+    Düymənin formanı göndərməməsi üçün ona type="button" xüsusiyyətini qeyd etməlisiz.-->
+    <form class="user-form">
+        <label>  
+          Ad
+          <input class="first-name" name="firstname" type="text">
+        </label>
+
+        <label>
+          Soyad
+          <input class="last-name" name="lastname" type="text">
+        </label>
+        <label>
+          Cinsi
+          <select class="gender" name="gender">
+            <option value="male">Kişi</option>
+            <option value="female">Qadın</option>
+          </select>
+        </label>
+        <button type="button">Sadə düymə</button>
+        <button>Göndər</button>
+    </form>
+
+
+    <!-- Məcburi sahələr -->
+    <!-- İstifadəçinin giriş sahəsinin dəyərini daxil etdiyinə əmin olmaq lazımdırsa,  
+        required atributundan istifadə olunur.  -->
+
+    <form class="user-form">
+        <label>  
+              Ad
+              <input class="first-name" name="firstname" type="text" required>
+            </label>
+        <label>
+              Soyad
+              <input class="last-name" name="lastname" type="text" required>
+            </label>
+        <button>Göndər</button>
+    </form>
+
+    <!-- Formun göndərilməsi -->
+    <!-- Default olaraq, form göndərildikdən sonra brauzer səhifəni yenidən yükləyir. 
+        Bunun qarşısını almaq üçün preventDefault() metodundan istifadə olunur. -->
+    <!-- <script>
+        const userForm = document.querySelector('.user-form');
+
+        userForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+        });
+    </script> -->
+
+    <!-- Form məlumatları -->
+    <!-- Dəyərləri əldə edə bilmək üçün form sahələrinin məlumatları xüsusi formada - FormData obyekti halında təqdim edilməlidir. 
+    Bundan sonra, sahələrin dəyəri name atributunun dəyəri ilə əldə edilə bilər. -->
+    <script>
+        const userForm = document.querySelector('.user-form');
+
+        userForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const data = new FormData(event.target);
+
+            console.log(data.get('firstname'));
+            console.log(data.get('lastname'));
+            console.log(data.get('gender'));
+        });
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
